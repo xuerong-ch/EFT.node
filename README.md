@@ -37,7 +37,7 @@ Para mantener el archivo de carga instantánea actualizado después de un wipe m
 
 ```bash
 # Requiere tener Python instalado
-pip install requests
+pip install -r requirements.txt
 python scripts/update_default_tasks.py
 ```
 
