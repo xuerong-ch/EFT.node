@@ -1,0 +1,2 @@
+# Admin script dependencies for refreshing the bundled Tarkov task snapshot.
+requests==2.33.1

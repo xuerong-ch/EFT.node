@@ -1,0 +1,37 @@
+{
+  "name": "eft-node",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Escape From Tarkov quest visualizer built with React, Vite, React Flow, and Tailwind CSS.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.8.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.2",
+    "eslint": "^9.35.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.42.0",
+    "vite": "^7.1.4"
+  }
+}
